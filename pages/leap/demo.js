@@ -5,6 +5,7 @@ import bekkbl from "../assetImage/bekkbal.jpg"
 import leng from "../assetImage/leng.jpg"
 import naro from "../assetImage/naro.jpg"
 import snareturn from "../assetImage/snareturn.jpg"
+import deksart from "../assetImage/deksart.jpg"
 
 export default function demo(){
     return (
@@ -41,6 +42,13 @@ export default function demo(){
               />
    <Image
                 src={snareturn}
+                alt="Vercel Logo"
+                width={550}
+                height={800}
+                priority
+              />
+     <Image
+                src={deksart}
                 alt="Vercel Logo"
                 width={550}
                 height={800}
